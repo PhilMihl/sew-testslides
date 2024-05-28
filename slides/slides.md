@@ -9,7 +9,7 @@ revealOptions:
   slideNumber: false
 ---
 
-# Literals, Constants, Variables, Data Types
+## Literals, Constants, Variables, Data Types
 
 ----
 
