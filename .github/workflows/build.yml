@@ -21,7 +21,7 @@ jobs:
         node-version: '20'  # Set the Node.js version as per your project's requirement
 
     - name: Build Slides with reveal-md
-      run: npx reveal-md slides/slides.md --template template/template.html --static site  # Replace 'slides.md' with your Markdown file
+      run: npx reveal-md slides/slides.md --template template/template.html --css template/style.css --static site  # Replace 'slides.md' with your Markdown file
 
     - name: Copy img folder # remove this if you have not images
       run: cp -r slides/img site/
