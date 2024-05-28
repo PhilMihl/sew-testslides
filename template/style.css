@@ -1,0 +1,25 @@
+.reveal {
+    font-size: 28px;
+}
+
+.reveal blockquote {
+    background-color: rgb(160, 255, 168);
+}
+
+strong {
+    background-color: greenyellow;
+}
+
+code {
+    background-color: lightgray;
+}
+
+.reveal ul ul {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.reveal code {
+    font-size: smaller;
+}
