@@ -21,10 +21,16 @@ revealOptions:
   * Integer literal: `42`
   * Floating point literal: `3.1415`
   * Boolean literal: `true`, `false`
+
+----
+
 * A **Constants** is a symbolic name for a literal
   * The value of a constant *cannot* change!
   * The names of constants in Java are usually written in *UPPERCASE LETTERS*.
   * E.g. `final int ANSWER = 42;` or `final string GREETING = "Hello World";`
+
+----
+
 * A **Variable** is a symbolic name whose value *can* change
   * The names of constants in Java are usually written in *lowercase letters*.
   * **Assignment**: Statement that assigns a value to a variable
@@ -58,7 +64,7 @@ Let's use **constants** of different types in a short program:
 ```java [|1-3|6,9-10|12-14]
 // Let's define a String constant for the address of our school. The address is
 // very unlikely to change -> a constant is a good choice.
-final string SCHOOL_ADDRESS = "Limesstraße 12-14, 4060 Leonding";
+final String SCHOOL_ADDRESS = "Limesstraße 12-14, 4060 Leonding";
 System.out.print("I go to school at ");
 System.out.println(SCHOOL_ADDRESS); // Here we use the constant
 System.out.print("Please drive me to school at ");
