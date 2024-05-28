@@ -190,9 +190,9 @@ class InputTypes {
 ----
 
 * Not all operators make sense for all types. Examples:
-  * `+` for integer values 👍 - <p class="fragment">obviously works</p>
-  * `/` for string values 🤔 - <p class="fragment">makes no sense</p>
-  * `>` for Boolean values 🤔 - <p class="fragment">also makes no sense</p>
+  * `+` for integer values 👍 - obviously works
+  * `/` for string values 🤔 - makes no sense
+  * `>` for Boolean values 🤔 - also makes no sense
 
 ----
 
