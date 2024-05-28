@@ -1,0 +1,52 @@
+.reveal {
+    font-size: 28px;
+}
+
+.reveal blockquote {
+    background-color: rgb(160, 255, 168);
+}
+
+strong {
+    background-color: greenyellow;
+}
+
+code {
+    background-color: lightgray;
+}
+
+.reveal ul ul {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+/* Add top margin before list items */
+.reveal ul li {
+    margin-top: 15px;
+}
+
+/* No top margin before list items in nested lists */
+.reveal ul ul li {
+    margin-top: 0;
+}
+
+/* No top margin before first list item */
+.reveal ul li:first-of-type {
+    margin-top: 0;
+}
+
+.reveal code {
+    font-size: smaller;
+}
+
+.container {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.col img {
+    margin-top: 0;
+}

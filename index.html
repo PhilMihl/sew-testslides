@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/monokai.css" />
 
+    <link rel="stylesheet" href="./_assets/template/style.css" />
   </head>
   <body>
     <div class="reveal">
@@ -371,7 +372,7 @@ System.out.println("The next number is " + number);
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"transition":"fade","slideNumber":false,"_":["slides/slides.md"],"template":"template/template.html","static":"site"}, queryOptions);
+      var options = extend(defaultOptions, {"transition":"fade","slideNumber":false,"_":["slides/slides.md"],"template":"template/template.html","css":"template/style.css","static":"site"}, queryOptions);
     </script>
 
 
